@@ -1,0 +1,6 @@
+# ENV
+*.env
+
+# MAC
+.DS_Store
+**/.DS_Store
