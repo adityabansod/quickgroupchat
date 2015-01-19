@@ -1,0 +1,171 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+body, #entry {
+  background: #22252a;
+  color: #eee;
+}
+body, table {
+  font-family: Ubuntu, DejaVu Sans Mono, fixed; 
+  font-size: 14pt;
+  line-height: 150%;
+}
+tr,td,table {
+  padding: 0;
+  margin: 0;
+  outline-width: 0;
+  border-width: 0;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0
+}
+h1 {
+  font-family: PT Serif;
+  border-radius: 20px;
+  background-color: #708090;
+  padding: 10px;
+
+}
+
+
+a { text-decoration: none; color: #888; }
+a:hover { text-decoration: underline; color: #aaa; }
+
+#loading, #connect {
+  background: #22252a;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /*padding: 1em;*/
+}
+
+#loading { z-index: 10000000; }
+#connect { z-index: 10000001; }
+
+#loading p, #connect fieldset  {
+  font-family: Ubuntu, DejaVu Sans Mono, fixed; 
+  width: 30em;
+  border: 0;
+}
+
+#toolbar {
+  position: fixed;
+  color: #fff;
+  width: 100%; 
+  bottom: 0;
+  background: #733;
+}
+
+#entry {
+  width: 100%;
+  font-size: inherit;
+  padding: 1em;
+  margin: 0;
+  border-width: 0;
+  outline-width: 0;
+  clear: both;
+}
+
+#log {
+  display: block;
+  /* enough padding to clear the toolbar.. is there a better way to do this? */
+  padding-bottom: 5.1em; 
+  background: inherit;
+  overflow: hidden;
+}
+
+/* not very important info */
+.notice td, .join td, .part td, .message .date { color: #555; }
+.error td { color: #933; }
+.personal .nick, .notice .nick { color: #cd5; }
+
+.message {
+  /* margin: 0.1em 0; 
+  remove the margin so the bubbles bleed togehter */
+}
+
+.message td {
+  vertical-align: top;
+}
+
+.nick { 
+  font-weight: bold;
+  padding: 0 1em 0 0.5em;
+}
+
+.nick a {
+  color: inherit;
+}
+
+#toolbar ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#toolbar li {
+  display: block; 
+  float: left;
+  margin: 0 2em 0 0;
+}
+
+#usersLink, #email {
+  color: inherit;
+}
+
+/*
+Generated at:
+http://design.geckotribe.com/colorwheel/
+
+rgb: 75, 25, 50
+angle: 30.0
+shade1: .6
+shade2: .3
+tint1: .8
+tint2: .4
+
+Split compliment set
+
+colorwheel0 is always a light grey for the user
+*/
+.colorwheel0 {
+   background-color: #666;
+}
+.colorwheel1 {
+   background-color: #A3B7A3;
+}
+.colorwheel2 {
+   background-color: #B7A3AD;
+}
+.colorwheel3 {
+   background-color: #A3B7B7;
+}
+.colorwheel4 {
+   background-color: #527752;
+}
+.colorwheel5 {
+   background-color: #785365;
+}
+.colorwheel6 {
+   background-color: #527777;
+}
+.colorwheel7 {
+   background-color: #184A18;
+}
+.colorwheel8 {
+   background-color: #4B1932;
+}
+.colorwheel9 {
+   background-color: #184A4A;
+}
+.colorwheel10 {
+   background-color: #103110;
+}
+.colorwheel11 {
+   background-color: #321121;
+}
+
